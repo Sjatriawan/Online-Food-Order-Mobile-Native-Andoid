@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123743402050",
+    "firebase_url": "https://silaq-v2.firebaseio.com",
+    "project_id": "silaq-v2",
+    "storage_bucket": "silaq-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123743402050:android:3eba9ff88ea7db44b515db",
+        "android_client_info": {
+          "package_name": "com.lentera.silaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP89JHbvaubXUg6x43k8zfDv1sUeg_qDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

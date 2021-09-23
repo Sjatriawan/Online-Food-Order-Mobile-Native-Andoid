@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Silaq</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_menu">Toko</string>
+    <string name="menu_food_list">Daftar Menu</string>
+    <string name="menu_food_detail">Detail Menu</string>
+    <string name="menu_signout">Keluar</string>
+    <string name="orders">Pesanan</string>
+
+    <string name="menu_tools">Tools</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="popular_categories">Rekomendasi</string>
+    <string name="best_deal">Populer</string>
+    <string name="tips">Tips</string>
+    <string name="search">Cari</string>
+    <string name="size">Ukuran</string>
+
+
+    <string name="add_on">Jenis</string>
+    <string name="clear_cart">Hapus semua</string>
+    <string name="cart">Keranjang</string>
+    <string name="sign_out">Keluar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_info">Edit Profil</string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC90OIq-4maWTatRL-XyhbJ-d4EU4dsgts</string>
+</resources>

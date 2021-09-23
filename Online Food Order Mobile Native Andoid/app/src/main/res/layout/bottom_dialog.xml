@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_dialog_bg"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ketentuan"
+        android:fontFamily="@font/baloo"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-  Dibawah 2 KM (Rp.2000) Google Maps"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-   2-3 KM (Rp.3000) Google Maps"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-   3-5 KM (Rp.4000) Google Maps"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-   Lebih dari 5 KM (Rp.5000) Google Maps"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Ongkos kirim akan diambil manual oleh driver"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Jarak akan diperlihatkan oleh driver sebagai bukti"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Apabila terjadi kecurangan, laporkan segera ke SILAQ"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/colorBlack"
+        android:padding="15dp"/>
+
+
+</LinearLayout>

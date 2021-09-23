@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/colorWhite">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo">
+        <EditText
+            android:id="@+id/edt_address"
+            android:background="@color/colorPrimaryOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan alamat"
+            android:fontFamily="@font/baloo">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo">
+        <EditText
+            android:background="@color/colorPrimaryOver"
+            android:id="@+id/edt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan tambahan tempat"
+            android:fontFamily="@font/baloo">
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_address_detail"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Pengiriman"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/allerta">
+    </TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rdi_home_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/baloo"
+            android:text="Alamat rumah saya"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rdi_ship_this_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Tempat saya sekarang"
+            android:textSize="18sp"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/colorBlack">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rdi_other_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Alamat lain"
+            android:textSize="18sp"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/colorBlack">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:text="Metode Pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary">
+    </TextView>
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdi_cod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bayar ditempat"
+            android:textSize="18sp"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/colorBlack">
+        </RadioButton>
+
+    </RadioGroup>
+
+
+</LinearLayout>

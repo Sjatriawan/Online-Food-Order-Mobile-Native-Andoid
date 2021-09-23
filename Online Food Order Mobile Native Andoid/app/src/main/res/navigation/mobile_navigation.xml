@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lentera.silaq.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.lentera.silaq.ui.menu.MenuFragment"
+        android:label="@string/menu_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_food_list"
+        android:name="com.lentera.silaq.ui.foodlist.FoodListFragment"
+        android:label="@string/menu_food_list"
+        tools:layout="@layout/fragment_food_list" />
+    <fragment
+        android:id="@+id/nav_food_detail"
+        android:name="com.lentera.silaq.ui.fooddetail.FoodDetailFragment"
+        android:label="@string/menu_food_detail"
+        tools:layout="@layout/fragment_food_detail" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.lentera.silaq.ui.cart.CartFragment"
+        android:label="Keranjang"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_view_orders"
+        android:name="com.lentera.silaq.ui.view_orders.ViewOrderFragment"
+        android:label="Pesanan"
+        tools:layout="@layout/fragment_view_order" />
+</navigation>
